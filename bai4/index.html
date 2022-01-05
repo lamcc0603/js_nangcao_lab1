@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .user_item {
+        color: green;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <div>
+        <label>ID</label>
+        <input type="number" id="addUserID" />
+      </div>
+
+      <div>
+        <label id="a">Name</label>
+        <input type="text" id="addUserText" />
+      </div>
+
+      <div>
+        <label>Gender</label>
+        <select id="addUserGender">
+          <option value="1">male</option>
+          <option value="2">female</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="button" id="addAction">Add</button>
+      </div>
+    </div>
+
+    <ul id="target"></ul>
+    <a class="user_item w200" href="../index.html">back to hometown </a>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
